@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Saved models
+*.pkl
+*.keras
+*.h5
+
+# Large processed data (optional safety)
+Data/Processed/
+
+# OS files
+.DS_Store
+Thumbs.db
