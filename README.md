@@ -90,7 +90,7 @@ A fixed split ensures identical train/test separation:
 
 | Model | Test Accuracy |
 |--------|---------------|
-| TF-IDF + Logistic Regression | **2.9%** |
+| TF-IDF + Logistic Regression | **3.5%** |
 | Feed-Forward Neural Network (FFNN) | **3.6%** |
 | Recurrent Neural Network (RNN) | **3.7% (Highest)** |
 | LSTM | **3.5%** |
