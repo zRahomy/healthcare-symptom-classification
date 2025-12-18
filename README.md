@@ -93,7 +93,7 @@ The TF-IDF split
 
 | Model | Test Accuracy |
 |--------|---------------|
-| TF-IDF + Logistic Regression | **3.5%** |
+| TF-IDF + Logistic Regression | **3.6%** |
 | Feed-Forward Neural Network (FFNN) | **3.6%** |
 | Recurrent Neural Network (RNN) | **3.7% (Highest)** |
 | LSTM | **3.5%** |
