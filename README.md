@@ -49,18 +49,21 @@ The following preprocessing steps were applied consistently across all models:
 - Tokenize + pad sequences (NN models)  
 - TF-IDF vectorization (TF-IDF model)  
 
-A fixed split ensures identical train/test separation:  
-- Train: 75%  
+A fixed split for FFNN, RNN and LSTM ensures identical train/test separation:  
+- Train: 70%  
 - Validation: 15%  
-- Test: 10%  
+- Test: 15%  
 - `random_state = 42`  
+The TF-IDF split
+- Train 85%
+- Test 15%
 
 ---
 
 ## Model Architectures  
 
 ### 1. TF-IDF + Logistic Regression  
-- TF-IDF vectorizer (max_features = 5000)  
+- TF-IDF vectorizer
 - Multinomial Logistic Regression  
 - Class weights balanced  
 
