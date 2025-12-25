@@ -14,9 +14,11 @@ __pycache__/
 *.keras
 *.h5
 
-# Large processed data (optional safety)
-Data/Processed/
+# Processed data (keep folder, ignore contents)
+Data/Processed/*
+!Data/Processed/.gitkeep
 
 # OS files
 .DS_Store
 Thumbs.db
+
